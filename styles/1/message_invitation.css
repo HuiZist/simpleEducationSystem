@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+#member #member_main dl{
+	width:800px;
+	margin:15px auto;
+}
+#member #member_main dl dd{
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+#member #member_main dl dd a{
+	text-decoration:none;
+	font-size:18px;
+	color:#3a5775;
+}
+#member #member_main dl dd a:hover{
+	color:#ccc;
+}
+#member #member_main dl dd a span{
+	font-size:13px;
+	color:#999;
+	float:right;
+}

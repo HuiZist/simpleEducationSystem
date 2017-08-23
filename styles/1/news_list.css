@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+#news_list{
+	width:auto;
+	border:1px solid #3a5775;
+}
+#news_list dl dt{
+	background:#3a5775;
+	color:#fff;
+	text-align:center;
+	font-size:18px;
+	line-height:32px;
+	font-weight:bold;
+}
+#news_list dl dd{
+	padding:10px;
+	border-bottom:1px solid #3a5775;
+}
+#news_list dl dd:hover{
+	background:linear-gradient(to right, #3a5775 , #fff);
+}
+#news_list dl dd a{
+	text-decoration:none;
+}
+#news_list dl dd a h3{
+	color:#333;
+	padding:5px;
+	letter-spacing:3px;
+}
+#news_list dl dd a p{
+	font-size:14px;
+	color:#999;
+	text-indent:50px;
+}

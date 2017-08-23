@@ -1,0 +1,176 @@
+@CHARSET "UTF-8";
+#lesson{
+	border:1px solid #3a5775;
+}
+#lesson h2{
+	background:linear-gradient(to right, #3a5775 , #fff);
+	color:#fff;
+}
+#lesson #lesson_title h3{
+	text-align:center;
+	color:#3a5775;
+	font-size:28px;
+	letter-spacing:2px;
+	padding:10px;
+}
+#lesson #lesson_title p{
+	color:#555;
+	padding-bottom:20px;
+	text-align:center;
+}
+#lesson #lesson_title p img{
+	border-radius:30px;
+	border:1px solid #333;
+	position:relative;
+	top:10px;
+	right:8px;
+}
+#lesson #lesson_title p a{
+	float:right;
+	text-decoration:none;
+	color:#3a5775;
+	font-size:13px;
+	padding:3px 10px;
+	border:1px solid #3a5775;
+	position:relative;
+	right:50px;
+	top:10px;
+}
+#lesson #lesson_title p a:hover{
+	background:#3a5775;
+	color:#fff;
+}
+#lesson #lesson_content{
+	height:200px;
+	overFlow-y:auto;
+	padding:20px;
+	letter-spacing:1px;
+}
+#lesson #lesson_file{
+	height:200px;
+	padding:20px;
+}
+#lesson #lesson_file a{
+	border:1px solid #3a5775;
+	color:#3a5775;
+	text-decoration:none;
+	padding:5px 10px;
+	margin:10px;
+	display:inline-block;
+}
+#lesson #lesson_file a:hover{
+	background:#3a5775;
+	color:#fff;
+	
+}
+#lesson_work dl{
+	width:850px;
+	margin:10px auto;
+	position:relative;
+}
+#lesson_work dl dd{
+	padding:10px;
+}
+#lesson_work dl dd div#ubb{
+	width:800px;
+	height:26px;
+	background:#3a5775;
+	border:1px solid #3a5775;
+	border-bottom:none;
+}
+#lesson_work dl dd div#ubb img {
+	display:block;
+	float:left;
+	padding:5px 0 0 23px;
+}
+#lesson_work dl dd div#font{
+	display:none;
+	width:120px;
+	height:60px;
+	background:#eee;
+	border:1px solid #3a5775;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:75px;
+	left:10px;
+}
+#lesson_work dl dd div#font strong{
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:default;
+	font-size:16px;
+}
+#lesson_work dl dd div#color{
+	display:none;
+	width:152px;
+	height:130px;
+	background:#eee;
+	border:1px solid #3a5775;
+	padding:4px 0 0 4px;
+	position:absolute;
+	top:75px;
+	left:260px;
+}
+#lesson_work dl dd div#color strong{
+	border:1px solid #999;
+	display:block;
+	width:12px;
+	height:12px;
+	float:left;
+	margin:4px 0 0 4px;
+}
+#lesson_work dl dd div#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#lesson_work dl dd div#color em input{
+	margin-top:10px;
+	margin-left:4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#lesson_work dl dd#q a {
+	text-decoration:none;
+	font-size:14px;
+	color:#3a5775;
+	border:1px solid #3a5775;
+	padding:5px 10px;
+}
+#lesson_work dl dd#q a:hover{
+	color:#fff;
+	background:#3a5775;
+}
+#lesson_work dl dd textarea{
+	width:790px;
+	border:1px solid #3a5775;
+	border-top:none;
+	background:#fff;
+	overflow-y:auto;
+	padding:5px;
+	outline:none;
+}
+#lesson_work dl dd input.file{
+	color:#3a5775;
+	padding-left:20px;
+}
+#lesson_work dl dd input.submit{
+	width:200px;
+	height:30px;
+	border:1px solid #3a5775;
+	color:#3a5775;
+	background:#fff;
+	font-size:14px;
+}
+#lesson_work dl dd.center{
+	text-align:center;
+}
+#lesson_work dl dd input.submit:hover{
+	color:#fff;
+	background:#3a5775;
+}

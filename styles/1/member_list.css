@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+#member #member_main #search_allarea{
+	padding:10px;
+}
+#member #member_main #search_allarea dd input#search_input{
+	width:350px;
+	border:none;
+	border-bottom:1px solid #3a5775;
+	outline:none;
+}
+#member #member_main input.button{
+	margin-left:10px;
+	width:50px;
+	border:1px solid #3a5775;
+	background:#fff;
+	color:#3a5775;
+	cursor:pointer;
+}
+#member #member_main input.button:hover{
+	background:#3a5775;
+	color:#fff;
+}
+#member #member_main dl dd{
+	padding:10px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+}
+#member #member_main dl dd img{
+	border-radius:30px;
+	border:1px solid #ccc;
+	position:relative;
+	top:5px;
+}
+#member #member_main dl dd span{
+	color:#3a5775;
+	font-weight:bold;
+}
+#member #member_main dl dd a{
+	padding:0px 10px;
+	margin:0 20px;
+	border:1px solid #3a5775;
+	color:#3a5775;
+	font-size:13px;
+	float:right;
+	line-height:25px;
+	position:relative;
+	top:5px;
+	text-decoration:none;
+}
+#member #member_main dl dd a:hover{
+	background:#3a5775;
+	color:#fff;
+}

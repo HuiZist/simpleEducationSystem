@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+#lesson_list{
+	width:auto;
+	height:650px;
+	font-size:16px;
+}
+#lesson_list #lesson_list_sidebar{
+	width:160px;
+	height:640px;
+	padding:10px;
+	float:left;
+	border:1px solid #3a5775;
+}
+#lesson_list #lesson_list_sidebar #personage_face{
+	padding:10px 0;
+	border-bottom:1px solid #ccc;
+	margin-bottom:20px;
+}
+#lesson_list #lesson_list_sidebar #personage_face img{
+	border-radius:100px;
+	border:2px solid #3a5775;
+	display:block;
+	margin:10px auto;
+}
+#lesson_list #lesson_list_sidebar #personage_face a{
+	color:#3a5775;
+	background:#fff;
+	border:1px solid #3a5775;
+	text-decoration:none;
+	padding:2px;
+	margin:5px;
+}
+#lesson_list #lesson_list_sidebar #personage_face a:hover{
+	color:#fff;
+	background:#3a5775;
+}
+#lesson_list #lesson_list_sidebar #personage_face a#loglink{
+	margin-left:30px;
+}
+#lesson_list #lesson_list_sidebar dl{
+	margin:10px;
+}
+#lesson_list #lesson_list_sidebar dt{
+	text-align:center;
+	color:#fff;
+	background:#3a5775;
+	padding:5px;
+}
+#lesson_list #lesson_list_sidebar dd{
+	padding:5px;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+#lesson_list #lesson_list_sidebar dd:hover{
+	background:#497799;
+}
+#lesson_list #lesson_list_sidebar dd a{
+	color:#3a5775;
+	text-decoration:none;
+}
+#lesson_list #lesson_list_main{
+	width:955px;
+	height:640px;
+	padding:10px;
+	float:left;
+	border:1px solid #3a5775;
+}
+#lesson_list #lesson_list_main #search_allarea{
+	padding:10px;
+}
+#lesson_list #lesson_list_main #search_allarea dd input#search_input{
+	width:350px;
+	border:none;
+	border-bottom:1px solid #3a5775;
+	outline:none;
+}
+#lesson_list #lesson_list_main input.button{
+	margin-left:10px;
+	width:50px;
+	border:1px solid #3a5775;
+	background:#fff;
+	color:#3a5775;
+	cursor:pointer;
+}
+#lesson_list #lesson_list_main input.button:hover{
+	background:#3a5775;
+	color:#fff;
+}
+#lesson_list #lesson_list_main h2{
+	color:#fff;
+	background:linear-gradient(to right, #3a5775 , #fff);
+	font-size:14px;
+}
+#lesson_list #lesson_list_main #lesson_invi dl dd{
+	padding:10px;
+	border-bottom:1px solid #3a5775;
+}
+#lesson_list #lesson_list_main #lesson_invi dl dd:hover{
+	background:linear-gradient(to right, #3a5775 , #fff);
+}
+#lesson_list #lesson_list_main #lesson_invi dl dd a{
+	text-decoration:none;
+	color:#333;
+}
+#lesson_list #lesson_list_main #lesson_invi dl dd a span{
+	float:right;
+	color:#666;
+	font-size:14px;
+}
+#page_text a{
+	color:#3a5775;
+}

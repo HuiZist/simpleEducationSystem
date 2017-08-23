@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	width:1160px;
+	margin:0 auto;
+	background:url(../../images/bg1.jpg) no-repeat left top fixed;
+	/* background:url(../../images/bg1.jpg) repeat left top; */
+}
+#header{
+	width:auto;
+	height:150px;
+	margin:10px 0;
+}
+#header h1{
+	width:auto;
+	height:80px;
+	text-align:center;	
+}
+#header h1 a{
+	width:auto;
+	height:auto;
+	font-size:60px;
+	text-decoration:none;
+	color:#3a5775;
+	letter-spacing:50px;
+	text-shadow: 0px 1px 0px #aaa, 1px 2px 0px #999, 2px 3px 0px #888, 0px 4px 0px #777, 0px 5px 0px #666, 0px 6px 0px #555, 0px 7px 0px #444, 0px 8px 7px #001135;
+	font-family:"Times New Roman","华文行楷";
+	font-weight:normal;
+}
+#header ul{
+	text-align:center;
+	padding:12px 10px;
+	background:linear-gradient(to right, #3a5775 , #fff);
+}
+#header ul li{
+	position:relative;
+	display:inline;
+	padding:10px 60px;
+}
+#header ul li a{
+	text-decoration:none;
+	font-size:22px;
+	color:#333;
+	font-weight:bold;
+}
+#header ul li a:hover{
+	color:#f60;
+}
+#header ul li a img{
+	position:absolute;
+	top:0;
+	border-radius:30px;
+	border:1px solid #3a5775;
+}
+#header ul li dl#personage{
+	position:absolute;
+	top:35px;
+	left:35px;
+	width:80px;
+	text-align:center;
+	display:none;
+	border:1px solid #3a5775;
+}
+#header ul li dl#personage dd{
+	padding:1px;
+}
+#header ul li dl#personage dd:hover{
+	background:#3a5775;
+}
+#header ul li dl#personage dd a{
+	padding:4px 22px;
+	color:#3a5775;
+	font-size:14px;
+	text-decoration:none;
+}
+#header ul li dl#personage dd a:hover{
+	color:#fff;
+}
+h2{
+	font-size:16px;
+	line-height:25px;
+	text-indent:10px;
+}
+/* 分页 */
+#page_num{
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	position:relative;
+	font-size:12px;
+}
+#page_num ul{
+	position:absolute;
+	right:26px;
+	height:20px;
+}
+#page_num ul li{
+	float:left;
+	width:20px;
+	height:20px;
+	margin-right:3px;
+}
+#page_num ul li a{
+	display:block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #333;
+	text-align:center;
+	text-decoration:none;
+}
+当鼠标滑过或者被选中
+#page_num ul li a:hover,#page_num ul li a.selected{
+	background:#666;
+	font-weight:bold;
+	color:#fff;
+}
+#page_text{
+	color:#3a5775;
+	height:20px;
+	clear:both;
+	padding:20px 0;
+	font-size:14px;
+}
+#page_text ul{
+	text-align:center;
+}
+#page_text ul li{
+	display:inline;
+}
+#page_text ul li a{
+	color:$3a5775;
+	text-decoration:none;
+}
+#page_text ul li a:hover{
+	color:#f60;
+}
+#footer{
+	clear:both;
+	width:auto;
+	height:60px;
+	text-align:center;
+	padding:20px 0 0 0;
+}
+#footer p{
+	font-size:12px;
+	letter-spacing:2px;
+	padding:5px 0;
+}

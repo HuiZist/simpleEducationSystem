@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+#upface{
+	color:#3a5775;
+	font-size:16px;
+}
+#upface h2{
+	padding-left:150px;
+	color:#fff;
+	background:#3a5775;
+}
+#upface form{
+	padding:50px 10px;
+}
+#upface span{
+	font-weight:bold;
+}
+#upface input.choose{
+	height:22px;
+	border:1px solid #3a5775;
+}
+#upface input.submit{
+	height:24px;
+	border:1px solid #3a5775;
+}

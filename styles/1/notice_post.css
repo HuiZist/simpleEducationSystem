@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+#notice_post{
+	width:auto;
+	height:570px;
+	border:1px solid #3a5775;
+	position:relative;
+}
+#notice_post h2{
+	text-indent:0;
+	text-align:center;
+	background:#3a5775;
+	color:#fff;
+}
+#notice_post dl{
+	width:600px;
+	margin:10px auto;
+}
+#notice_post dl span{
+	font-weight:bold;
+}
+#notice_post dl dd{
+	margin:15px 0;
+}
+#notice_post dl dd div#ubb{
+	width:600px;
+	height:26px;
+	background:#3a5775;
+	border:1px solid #3a5775;
+	border-bottom:none;
+}
+#notice_post dl dd div#ubb img {
+	display:block;
+	float:left;
+	padding:5px 0 0 14px;
+}
+#notice_post dl dd div#font{
+	display:none;
+	width:120px;
+	height:60px;
+	background:#eee;
+	border:1px solid #3a5775;
+	padding:8px;
+	line-height:20px;
+	position:absolute;
+	top:141px;
+	left:280px;
+}
+#notice_post dl dd div#font strong{
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;
+	cursor:default;
+	
+}
+#notice_post dl dd div#color{
+	display:none;
+	width:152px;
+	height:130px;
+	background:#eee;
+	border:1px solid #3a5775;
+	padding:4px 0 0 4px;
+	position:absolute;
+	top:141px;
+	left:460px;
+}
+#notice_post dl dd div#color strong{
+	border:1px solid #999;
+	display:block;
+	width:12px;
+	height:12px;
+	float:left;
+	margin:4px 0 0 4px;
+}
+#notice_post dl dd div#color em{
+	display:block;
+	height:28px;
+	width:80%;
+	clear:both;
+}
+#notice_post dl dd div#color em input{
+	margin-top:10px;
+	margin-left:4px;
+	width:136px;
+	height:20px;
+	cursor:pointer;
+	background:#fff;
+}
+#notice_post dl dd textarea{
+	width:590px;
+	border:1px solid #3a5775;
+	border-top:none;
+	background:#fff;
+	overflow-y:auto;
+	padding:5px;
+}
+#notice_post dl dd input.text{
+	width:500px;
+	height:25px;
+	border:1px solid #3a5775;
+	background:#fff;
+}
+#notice_post dl dd input.yzm{
+	width:80px;
+}
+#notice_post dl dd input.submit{
+	cursor:pointer;
+	float:right;
+	margin-right:10px;
+	margin-top:8px;
+	color:#3a5775;
+	background:#fff;
+	border:1px solid #3a5775;
+	padding:5px 15px;
+}
+#notice_post dl dd input.submit:hover{
+	color:#fff;
+	background:#3a5775;
+}
+#notice_post dl dd img#code{
+	position:relative;
+	top:8px;
+	left:10px;
+	cursor:pointer;
+}
+#notice_post dl dd#q a {
+	text-decoration:none;
+	font-size:14px;
+	color:#3a5775;
+	border:1px solid #3a5775;
+	padding:5px 10px;
+}
+#notice_post dl dd#q a:hover{
+	color:#fff;
+	background:#3a5775;
+}

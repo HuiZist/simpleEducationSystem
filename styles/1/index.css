@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+div h2{
+	color:#fff;
+	background:linear-gradient(to right, #3a5775 , #fff);
+}
+div h2 a{
+	float:right;
+	text-decoration:none;
+	color:#3a5775;
+	font-size:13px;
+	padding-right:10px;
+}
+div h2 a:hover{
+	color:#f60;
+}
+#notice{
+	width:400px;
+	height:352px;
+	float:left;
+	margin:0 7px 7px 0;
+	position:relative;
+}
+#notice #notice_display h3{	
+	text-align:center;
+	font-size:18px;
+	line-height:35px;
+}
+#notice #notice_display h3 a{
+	text-decoration:none;
+	color:#3a5775;
+}
+#notice #notice_display h3 a:hover{
+	color:#f60;
+}
+#notice #notice_display p{
+	color:#999;
+	font-size:13px;
+	text-indent:10px;
+	padding-bottom:5px;
+}
+#notice #notice_display #notice_content{
+	font-size:14px;
+	line-height:28px;
+	position:absolute;
+	bottom:0;
+	padding:10px;
+	width:380px;
+	height:230px;
+	overFlow:auto;
+	border-top:1px solid #3a5775;
+	letter-spacing:1px;
+}
+#news{
+	width:400px;
+	clear:left;
+	float:left;
+	margin:0 7px 0 0;
+}
+#news dl dd{
+	border:1px solid #999;
+	border-left:5px solid #f60;
+	padding:10px;
+	margin:5px 0;
+	background:#fff;
+}
+#news dl dd:hover{
+	background:linear-gradient(to right, #f60 , #fff);
+}
+#news dl dd a{
+	text-decoration:none;
+	color:#3a5775;
+}
+#news dl dd a span{
+	float:right;
+	color:#999;
+	font-size:13px;
+}
+#invitation{
+	width:730px;
+	float:left;
+	margin:0 0 0 7px;
+}
+#invitation dd{
+	padding:10px;
+	border:1px solid #999;
+	border-left:5px solid #9cf;
+	margin:5px 0;
+	background:#fff;
+}
+#invitation dd:hover{
+	background:linear-gradient(to right, #9cf , #fff);
+}
+#invitation dd a{
+	text-decoration:none;
+	color:#3a5775;
+	letter-spacing:2px;
+}
+#invitation dd a span{
+	float:right;
+	color:#999;
+	font-size:13px;
+	letter-spacing:1px;
+}
+#subject{
+	width:730px;
+	float:left;
+	margin:0 0 0px 7px;
+}
+#subject dl dd{
+	margin:10px 0;
+	padding:10px;
+	border:1px solid #999;
+	background:#fff;
+	border-left:5px solid #3a5775;
+}
+#subject dl dd:hover{
+	background:linear-gradient(to right, #3a5775 , #fff);
+}
+#subject dl dd a{
+	text-decoration:none;
+	color:#3a5775;
+	letter-spacing:2px;
+}
+#subject dl dd a span{
+	float:right;
+	color:#999;
+	font-size:13px;
+	letter-spacing:1px;
+}

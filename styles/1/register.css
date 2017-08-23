@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+#register{
+	width:auto;
+	height:570px;
+	border:1px #333 solid;
+}
+#register h2{
+	text-indent:0;
+	text-align:center;
+}
+#register dl{
+	width:430px;
+	margin:0 auto;
+}
+#register dl dt{
+	padding:10px 0;
+}
+#register dl dd{
+	margin:15px 0;
+}
+#register dl dd input.text{
+	width:200px;
+	height:25px;
+	border:1px solid #333;
+	margin-left:30px;
+}
+#register dl dd input.sex{
+	margin-left:30px;
+}
+#register dl dd input.yzm{
+	width:60px;
+}
+#register dl dd img.help{
+	margin-left:20px;
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#register dl dd input.submit{
+	width:200px;
+	height:25px;
+	border:1px solid #333;
+	cursor:pointer;
+	margin:0 0 0 110px;
+}
+#register dl dd img#code{
+	margin-left:20px;
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}

@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+#member{
+	width:auto;
+	height:800px;
+	font-size:16px;
+}
+#member h2{
+	text-indent:0;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	background:#3a5775;
+	color:#fff;
+}
+#member #member_sidebar{
+	width:250px;
+	float:left;
+}
+#member #member_sidebar dl{
+	width:200px;
+	margin:0 auto;
+}
+#member #member_sidebar dl dt{
+	height:40px;
+	line-height:40px;
+	background:#3a5775;
+	font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+#member #member_sidebar dl dd{
+	height:40px;
+	line-height:40px;
+	font-weight:bold;
+	text-align:center;
+}
+#member #member_sidebar dl dd a{
+	display:block;
+	color:#333;
+	text-decoration:none;
+}
+#member #member_sidebar dl dd a:hover{
+	background:#497799;
+}
+#member #member_sidebar dl dd.message_unread{
+	position:relative;
+}
+#member #member_sidebar dl dd.message_unread a span{
+	position:absolute;
+	left:145px;
+	top:11px;
+	background:red;
+	border-radius:18px;
+	font-size:14px;
+	line-height:18px;
+	width:18px;
+	color:#fff;
+	
+}
+#member #member_main{
+	width:850px;
+	float:right;
+	margin-right:20px;
+}
