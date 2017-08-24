@@ -20,10 +20,10 @@ require ROOT_PATH.'includes/global.func.php';
 require ROOT_PATH.'includes/mysql.func.php';
 
 //连接数据库
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PWD','1029384756');
-define('DB_NAME','education_system');
+define('DB_HOST','XXX');
+define('DB_USER','XXX');
+define('DB_PWD','XXX');
+define('DB_NAME','XXX');
 
 //初始化数据库
 _connect();
